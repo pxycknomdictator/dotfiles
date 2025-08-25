@@ -22,5 +22,6 @@ alias dockerup="docker compose up -d"
 alias dockerdown="docker compose down"
 
 # Vscode extension
-alias vscode-extensions="cat ~/dotfiles/vscode/.config/Code/User/extensions.txt | xargs -n 1 code --install-extension"
+alias vscode-extensions-list="code --list-extensions > ~/dotfiles/vscode/.config/Code/User/extensions.txt"
+alias vscode-extensions-install="cat ~/dotfiles/vscode/.config/Code/User/extensions.txt | xargs -n 1 code --install-extension"
 

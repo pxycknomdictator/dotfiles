@@ -1,0 +1,10 @@
+{
+  "script Tag with TS": {
+    "prefix": "ts",
+    "body": [
+      "<script lang=\"ts\">",
+      "</script>"
+    ],
+    "description": "script Tag with TS"
+  }
+}

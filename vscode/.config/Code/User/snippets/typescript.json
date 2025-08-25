@@ -1,0 +1,12 @@
+{
+  "handle function": {
+    "prefix": "handle",
+    "body": [
+      "export async function handle({ resolve, event }) {",
+      "    return await resolve(event);",
+      "}",
+      ""
+    ],
+    "description": "handle function"
+  }
+}

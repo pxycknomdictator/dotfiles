@@ -2,9 +2,11 @@
   "handle function": {
     "prefix": "handle",
     "body": [
-      "export async function handle({ resolve, event }) {",
+      "import type { Handle } from \"@sveltejs/kit\";",
+      "",
+      "export const handle: Handle = async ({ resolve, event }) => {",
       "    return await resolve(event);",
-      "}",
+      "};",
       ""
     ],
     "description": "handle function"

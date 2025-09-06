@@ -13,3 +13,5 @@ alias docker:down="sudo docker compose down"
 alias l="ls"
 alias ll="ls -A"
 alias la="ls -lah"
+
+alias install-extensions='cat ~/dotfiles/vscode/.config/Code/User/extensions.txt | xargs -n 1 code --install-extension'

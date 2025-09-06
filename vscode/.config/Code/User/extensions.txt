@@ -1,0 +1,8 @@
+bradlc.vscode-tailwindcss
+esbenp.prettier-vscode
+formulahendry.auto-rename-tag
+hiteshchoudharycode.chai-theme
+mongodb.mongodb-vscode
+pkief.material-icon-theme
+streetsidesoftware.code-spell-checker
+svelte.svelte-vscode

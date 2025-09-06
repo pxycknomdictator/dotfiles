@@ -1,0 +1,15 @@
+{
+    "SvelteKit Handle Function": {
+        "prefix": "handle",
+        "body": [
+            "import type { Handle } from \"@sveltejs/kit\";",
+            "",
+            "export const handle: Handle = async ({ event, resolve }) => {",
+            "\tconst response = await resolve(event);",
+            "\treturn response;",
+            "};",
+            ""
+        ],
+        "description": "SvelteKit handle function boilerplate"
+    }
+}

@@ -1,0 +1,22 @@
+alias so="source ~/.zshrc"
+alias zshrc="nvim ~/.zshrc"
+alias aliases="nvim ~/.zsh_aliases"
+
+alias ..="cd .."
+alias ...="cd ../.."
+alias ....="cd ../../.."
+
+alias desktop='cd ~/Desktop'
+alias document='cd ~/Documents'
+alias download='cd ~/Downloads'
+alias music='cd ~/Music'
+alias picture='cd ~/Pictures'
+alias public='cd ~/Public'
+alias template='cd ~/Templates'
+alias video='cd ~/Videos'
+
+alias docker="sudo docker"
+alias docker:up="sudo docker compose up -d"
+alias docker:down="sudo docker compose down"
+
+alias la="ls -lah"

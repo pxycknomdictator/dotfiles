@@ -1,6 +1,8 @@
 alias so="source ~/.zshrc"
 alias zshrc="nvim ~/.zshrc"
 alias aliases="nvim ~/.zsh_aliases"
+alias reboot="sudo reboot"
+alias shutdown="sudo shutdown now"
 
 alias ..="cd .."
 alias ...="cd ../.."

@@ -1,0 +1,22 @@
+{
+    "nextJS default export component snippet": {
+        "prefix": "ndf",
+        "body": [
+            "export default function ${1:Page}() {",
+            "    return <h1>${1:Page}</h1>;",
+            "}",
+            ""
+        ],
+        "description": "NextJS default export component"
+    },
+    "nextJS export component snippet": {
+        "prefix": "nf",
+        "body": [
+            "export function ${1:Page}() {",
+            "    return <h1>${1:Page}</h1>;",
+            "}",
+            ""
+        ],
+        "description": "NextJS export component"
+    }
+}

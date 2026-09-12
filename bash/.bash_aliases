@@ -3,6 +3,18 @@ alias so="source ~/.bashrc"
 alias bashrc="nvim ~/.bashrc"
 alias bash_alias="nvim ~/.bash_aliases"
 
+# Terminal
+alias c="clear"
+alias q="exit"
+alias h="history"
+
+# APT
+alias update="sudo apt update"
+alias upgrade="sudo apt upgrade"
+alias install="sudo apt install"
+alias remove="sudo apt remove"
+alias search="apt search"
+
 # Home directories
 alias desktop="cd ~/Desktop"
 alias downloads="cd ~/Downloads"

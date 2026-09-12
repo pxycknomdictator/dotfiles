@@ -1,0 +1,61 @@
+OS / Desktop
+.DS_Store
+Thumbs.db
+.directory
+
+Editor / IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+Temporary files
+*.tmp
+*.temp
+*.log
+.cache/
+
+Shell history / sensitive local state
+.bash_history
+.zsh_history
+.lesshst
+.python_history
+.node_repl_history
+
+Secrets / credentials
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+.p12
+.pfx
+credentials
+secrets
+
+SSH
+.ssh/known_hosts
+
+GPG
+.gnupg/
+
+Local machine-specific config
+.machine-local
+.local/
+.localrc
+
+Package / generated files
+node_modules/
+pycache/
+*.pyc
+
+Build output
+build/
+dist/
+target/
+
+Backup files
+*.bak
+*.backup
+*.old

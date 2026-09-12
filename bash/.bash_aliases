@@ -15,6 +15,10 @@ alias install="sudo apt install"
 alias remove="sudo apt remove"
 alias search="apt search"
 
+# Power
+alias shutdown="sudo shutdown now"
+alias reboot="sudo reboot"
+
 # Home directories
 alias desktop="cd ~/Desktop"
 alias downloads="cd ~/Downloads"

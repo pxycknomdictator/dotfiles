@@ -13,7 +13,8 @@ alias update="sudo apt update"
 alias upgrade="sudo apt upgrade"
 alias install="sudo apt install"
 alias remove="sudo apt remove"
-alias search="apt search"
+alias search="sudo apt search"
+alias autoremove="sudo apt autoremove"
 
 # Power
 alias shutdown="sudo shutdown now"
@@ -71,3 +72,15 @@ alias dprunea="sudo docker system prune -a"
 # VS Code
 alias vsi="xargs -L 1 code --install-extension < ~/dotfiles/vscode/.vscode/extension.txt"
 alias vsl="code --list-extensions > ~/dotfiles/vscode/.vscode/extension.txt"
+
+# Git
+alias gst="git status"
+alias gaa="git add --all"
+alias gmt="git commit -m"
+alias gp="git push"
+alias gpl="git pull"
+alias gb="git branch"
+alias gco="git checkout"
+alias gcb="git checkout -b"
+alias gl="git log --oneline"
+alias gd="git diff"

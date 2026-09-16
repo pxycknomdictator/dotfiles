@@ -20,6 +20,7 @@ alias shutdown="sudo shutdown now"
 alias reboot="sudo reboot"
 
 # Home directories
+alias dotfiles="cd ~/dotfiles"
 alias desktop="cd ~/Desktop"
 alias downloads="cd ~/Downloads"
 alias documents="cd ~/Documents"
@@ -66,3 +67,7 @@ alias dcr="sudo docker compose restart"
 # Cleanup
 alias dprune="sudo docker system prune"
 alias dprunea="sudo docker system prune -a"
+
+# VS Code
+alias vsi="xargs -L 1 code --install-extension < ~/dotfiles/vscode/.vscode/extension.txt"
+alias vsl="code --list-extensions > ~/dotfiles/vscode/.vscode/extension.txt"

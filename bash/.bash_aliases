@@ -19,3 +19,10 @@ alias pictures="cd ~/Pictures"
 alias public="cd ~/Public"
 alias templates="cd ~/Templates"
 alias videos="cd ~/Videos"
+
+# Vscode
+alias vs="code ."
+alias vsu="code --update-extensions"
+alias vsd="code --disable-extensions"
+alias vsl="code --list-extensions > ~/dotfiles/vscode/.vscode/extensions.txt"
+alias vsi="xargs -L 1 code --install-extension < ~/dotfiles/vscode/.vscode/extensions.txt"

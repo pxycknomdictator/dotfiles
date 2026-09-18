@@ -1,0 +1,65 @@
+# Secrets / credentials
+.env
+.env.*
+*.pem
+*.key
+*.p12
+*.pfx
+credentials*
+secrets*
+
+# SSH
+.ssh/id_*
+.ssh/*.pub
+.ssh/known_hosts
+.ssh/config
+
+# GPG
+.gnupg/
+
+# Shell history
+.bash_history
+.zsh_history
+.python_history
+.node_repl_history
+
+# Caches
+.cache/
+.local/cache/
+.npm/
+.cargo/registry/
+.cargo/git/
+
+# Temporary files
+*.tmp
+*.temp
+*.swp
+*.swo
+*~
+.#*
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+logs/
+
+# Editor / IDE
+/.vscode/
+.idea/
+
+# Build artifacts
+build/
+dist/
+target/
+node_modules/
+
+# Application-specific state
+.local/share/
+.local/state/
+
+# Machine-specific files
+.machine-specific
+.host-specific

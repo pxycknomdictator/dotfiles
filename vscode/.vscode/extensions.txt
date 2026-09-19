@@ -1,7 +1,9 @@
 bradlc.vscode-tailwindcss
 esbenp.prettier-vscode
+golang.go
 ms-azuretools.vscode-containers
 ms-azuretools.vscode-docker
 pkief.material-icon-theme
+rust-lang.rust-analyzer
 streetsidesoftware.code-spell-checker
 svelte.svelte-vscode

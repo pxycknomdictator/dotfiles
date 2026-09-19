@@ -1,0 +1,12 @@
+{
+    "svelte typescript script tag": {
+        "prefix": "svt",
+        "body": ["<script lang=\"ts\">", "    $0", "</script>"],
+        "description": "svelte typescript script tag"
+    },
+    "svelte javascript script tag": {
+        "prefix": "svj",
+        "body": ["<script>", "    $0", "</script>"],
+        "description": "svelte javascript script tag"
+    }
+}

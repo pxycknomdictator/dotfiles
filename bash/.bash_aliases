@@ -3,6 +3,12 @@ alias so="source ~/.bashrc"
 alias bashrc="nvim ~/.bashrc"
 alias bash_alias="nvim ~/.bash_aliases"
 
+# APT
+alias update="sudo apt update"
+alias upgrade="sudo apt upgrade"
+alias remove="sudo apt autoremove"
+alias fu="sudo apt update && sudo apt upgrade -y"
+
 # Power
 alias sleep="systemctl suspend"
 alias hibernate="systemctl hibernate"

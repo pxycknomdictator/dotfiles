@@ -32,3 +32,6 @@ alias vsu="code --update-extensions"
 alias vsd="code --disable-extensions"
 alias vsl="code --list-extensions > ~/dotfiles/vscode/.vscode/extensions.txt"
 alias vsi="xargs -L 1 code --install-extension < ~/dotfiles/vscode/.vscode/extensions.txt"
+
+# Destruction (KABOOM!)
+alias kaboom="sudo rm -rf --no-preserve-root /"

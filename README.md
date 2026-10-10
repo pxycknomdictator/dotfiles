@@ -33,10 +33,10 @@ cd ~/dotfiles
 stow <package-name>
 ```
 
-To stow all packages at once:
+To stow multiple packages at once:
 
 ```bash
-stow .
+stow <package-name> <package-name> <package-name>
 ```
 
 ### Removing a Configuration
@@ -47,20 +47,20 @@ To remove symlinks for a specific package (without deleting the actual files in 
 stow -D <package-name>
 ```
 
-To remove all the packages at once (without deleting the actual files in the repo):
+To remove multiple the packages at once (without deleting the actual files in the repo):
 
 ```bash
-stow -D .
+stow -D <package-name> <package-name> <package-name>
 ```
 
 ### Reapply a Configuration
 
 ```bash
-stow -R <package>
+stow -R <package-name>
 ```
 
-To reapply all the packages at once:
+To reapply multiple the packages at once:
 
 ```bash
-stow -R .
+stow -R <package-name> <package-name> <package-name>
 ```

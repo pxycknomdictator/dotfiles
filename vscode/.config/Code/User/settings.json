@@ -28,27 +28,6 @@
     "prettier.singleQuote": false,
     "explorer.compactFolders": false,
     "workbench.secondarySideBar.defaultVisibility": "hidden",
-    "[svelte]": {
-        "editor.defaultFormatter": "svelte.svelte-vscode"
-    },
-    "svelte.enable-ts-plugin": true,
-    "[rust]": {
-        "editor.defaultFormatter": "rust-lang.rust-analyzer",
-        "editor.quickSuggestions": {
-            "other": true,
-            "comments": false,
-            "strings": true
-        }
-    },
-    "[go]": {
-        "editor.defaultFormatter": "golang.go",
-        "editor.insertSpaces": false,
-        "editor.formatOnSave": true,
-        "editor.formatOnSaveMode": "file",
-        "editor.codeActionsOnSave": {
-            "source.organizeImports": "explicit"
-        }
-    },
     "terminal.integrated.lineHeight": 1.9,
     "terminal.integrated.fontSize": 14.98,
     "terminal.integrated.fontWeight": "650",
@@ -58,5 +37,9 @@
     "editor.linkedEditing": true,
     "explorer.confirmPasteNative": false,
     "diffEditor.maxComputationTime": 0,
-    "js/ts.preferences.importModuleSpecifier": "non-relative"
+    "js/ts.preferences.importModuleSpecifier": "non-relative",
+    "svelte.enable-ts-plugin": true,
+    "[svelte]": {
+        "editor.defaultFormatter": "svelte.svelte-vscode"
+    }
 }

@@ -26,6 +26,9 @@ alias public="cd ~/Public"
 alias templates="cd ~/Templates"
 alias videos="cd ~/Videos"
 
+# BAT
+alias bat="batcat"
+
 # VS CODE
 alias vs="code ."
 alias vsu="code --update-extensions"

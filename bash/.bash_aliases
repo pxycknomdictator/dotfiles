@@ -26,6 +26,12 @@ alias public="cd ~/Public"
 alias templates="cd ~/Templates"
 alias videos="cd ~/Videos"
 
+# NAVIGATION
+alias ..="cd .."
+alias ...="cd ../.."
+alias ....="cd ../../.."
+alias .....="cd ../../../.."
+
 # BAT
 alias bat="batcat"
 

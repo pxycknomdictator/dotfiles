@@ -42,6 +42,10 @@ alias vsd="code --disable-extensions"
 alias vsl="code --list-extensions > ~/dotfiles/vscode/.vscode/extensions.txt"
 alias vsi="xargs -r -L 1 code --install-extension < ~/dotfiles/vscode/.vscode/extensions.txt"
 
+# DOCKER
+alias docker-save="sudo docker images --format '{{.Repository}}:{{.Tag}}' | grep -v '<none>' > ~/dotfiles/docker/.docker/images.txt"
+alias docker-restore="xargs -r -L 1 sudo docker pull < ~/dotfiles/docker/.docker/images.txt"
+
 # DESTRUCTION (KABOOM!)
 # Disabled to prevent accidental system destruction.
 # alias kaboom="sudo rm -rf --no-preserve-root /"

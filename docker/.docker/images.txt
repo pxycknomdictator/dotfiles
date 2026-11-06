@@ -1,0 +1,13 @@
+node:26-alpine
+node:26
+phpmyadmin:5.2.3
+postgres:18
+dpage/pgadmin4:9.18
+traefik:v3.6
+redis:8.6.2
+caddy:2.11.2
+nginx:1.29.7
+mongo:8.0.17
+mysql:8.4.6
+mariadb:11.4.5
+mongo-express:1.0.2

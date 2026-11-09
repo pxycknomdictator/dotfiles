@@ -6,7 +6,7 @@ alias bash_alias="nvim ~/.bash_aliases"
 # APT (DEBIAN)
 alias update="sudo apt update"
 alias upgrade="sudo apt upgrade"
-alias remove="sudo apt autoremove"
+alias autoremove="sudo apt autoremove"
 alias fu="sudo apt update && sudo apt full-upgrade -y"
 
 # POWER

@@ -15,6 +15,12 @@ alias hibernate="systemctl hibernate"
 alias reboot="systemctl reboot"
 alias shutdown="systemctl poweroff"
 
+# NAVIGATION
+alias ..="cd .."
+alias ...="cd ../.."
+alias ....="cd ../../.."
+alias .....="cd ../../../.."
+
 # HOME
 alias desktop="cd ~/Desktop"
 alias documents="cd ~/Documents"
@@ -26,14 +32,13 @@ alias public="cd ~/Public"
 alias templates="cd ~/Templates"
 alias videos="cd ~/Videos"
 
-# NAVIGATION
-alias ..="cd .."
-alias ...="cd ../.."
-alias ....="cd ../../.."
-alias .....="cd ../../../.."
-
 # BAT
 alias bat="batcat"
+
+# FZF (fuzzy finder)
+alias fd='cd "$(fdfind --type d --hidden --exclude .git | fzf)"'
+alias fdp="fdfind --type f --hidden --no-ignore --exclude .git | fzf --preview 'batcat --color=always --style=numbers {}'"
+alias fdo="nvim \"\$(fdfind --type f --hidden --no-ignore --exclude .git | fzf --preview 'batcat --color=always --style=numbers {}')\""
 
 # VS CODE
 alias vs="code ."
